@@ -140,22 +140,15 @@
 			<artifactId>webdrivermanager</artifactId>
 			<version>${webdrivermanager.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>FirstProjectSelenium</groupId>
+			<artifactId>FirstProjectSelenium</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
-	</dependencyManagement>
 
-	<dependencies>
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter-api</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<!-- Optionally: parameterized tests support -->
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter-params</artifactId>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
+
+
 
 	<build>
 		<pluginManagement><!-- lock down plugins versions to avoid using Maven
